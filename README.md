@@ -8,6 +8,15 @@
 
 The background is a low-saturation indigo-blue (`#171A2D`) that stays easy on the eyes through long lessons, while syntax colors keep the same roles as the light theme, so switching between day and night feels natural.
 
+## Two themes, one place
+
+This repository holds both EDUSER themes for VS Code:
+
+| Theme | Install | Source |
+|---|---|---|
+| **EDUSER Dark Theme** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=eduser.eduser-dark-theme) | repository root |
+| **EDUSER Light Theme** | [Marketplace](https://marketplace.visualstudio.com/items?itemName=eduser.eduser-light-theme) | [`light/`](https://github.com/aidoszhumanazar/eduser-dark-theme/tree/main/light) |
+
 ## Python
 
 ![Python](images/python.png)
