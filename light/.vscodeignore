@@ -1,0 +1,11 @@
+.git/**
+.gitignore
+.github/**
+.vscode/**
+docs/**
+node_modules/**
+PUBLISHING.md
+scripts/**
+*.vsix
+*.log
+package-lock.json

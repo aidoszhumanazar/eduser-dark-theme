@@ -1,0 +1,43 @@
+{
+  "name": "eduser-light-theme",
+  "displayName": "EDUSER Light Theme",
+  "description": "Professional clean white VS Code light theme for EDUSER ecosystem. Optimized for SQL, HTML, CSS, JavaScript and Python.",
+  "version": "0.1.9",
+  "publisher": "eduser",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light theme",
+    "eduser",
+    "education",
+    "python",
+    "javascript",
+    "sql",
+    "html",
+    "css"
+  ],
+  "galleryBanner": {
+    "color": "#ffffff",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "EDUSER Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/eduser-light-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "validate": "node -e \"const fs=require('fs'); JSON.parse(fs.readFileSync('package.json','utf8')); JSON.parse(fs.readFileSync('themes/eduser-light-color-theme.json','utf8')); console.log('JSON validation passed');\"",
+    "package": "vsce package"
+  }
+}
